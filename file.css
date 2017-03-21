@@ -91,6 +91,7 @@ header a:hover{
 /* Showcase */
 #showcase{
 	min-height: 400px;
+	background: url('./images/pizza.jpeg') no-repeat -200px -50px;
 	text-align: center;
 	color: #ffffff;
 }
@@ -101,43 +102,7 @@ header a:hover{
 	margin-bottom: 10px;
 }
 
-#showcase .container .rslides {
-  position: fixed;
-  list-style: none;
-  overflow: hidden;
-  top: 75%
-  left: 75%;
-  width: auto;
-  height: auto;
-  -webkit-transform: translate(-50%,-50%);
-  -moz-transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  -o-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  }
 
-#showcase .container .rslides li {
-  -webkit-backface-visibility: hidden;
-  position: absolute;
-  display: none;
-  width: 80%;
-  left: 0;
-  top: 0;
-  }
-
-#showcase .container .rslides li:first-child {
-  position: relative;
-  display: block;
-  float: left;
-  }
-
-#showcase .container .rslides img {
-  display: block -200px -50px;
-  height: auto;
-  float: left;
-  width: 80%;
-  border: .5;
-  }
 
 /* Newsletter */
 #newsletter{
