@@ -91,7 +91,6 @@ header a:hover{
 /* Showcase */
 #showcase{
 	min-height: 400px;
-	background: url('./images/pizza.jpeg') no-repeat -200px -50px;
 	text-align: center;
 	color: #ffffff;
 }
@@ -102,6 +101,37 @@ header a:hover{
 	margin-bottom: 10px;
 }
 
+#showcase .rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+#showcase .rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+#showcase .rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+#showcase .rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
 
 /* Newsletter */
 #newsletter{
