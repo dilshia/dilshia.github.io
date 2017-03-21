@@ -40,6 +40,7 @@ ul {
 	margin-bottom: 10px;
 }
 
+
 /* Header*/
 header {
 	background: #008fb3;
@@ -95,11 +96,12 @@ header a:hover{
 	color: #ffffff;
 }
 
-#showcase h1{
+#showcase .container h1{
 	margin-top: 100px;
 	font-size: 50px;
 	margin-bottom: 10px;
 }
+
 
 /* Newsletter */
 #newsletter{
@@ -202,3 +204,4 @@ footer{
 		margin-bottom: 5px;
 	}
 }
+
