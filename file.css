@@ -105,8 +105,8 @@ header a:hover{
   position: fixed;
   list-style: none;
   overflow: hidden;
-  top: 50%
-  left: 50%;
+  top: 75%
+  left: 75%;
   width: auto;
   height: auto;
   -webkit-transform: translate(-50%,-50%);
