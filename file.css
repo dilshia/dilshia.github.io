@@ -131,6 +131,30 @@ header a:hover{
 	margin-top: 20px;
 }
 
+#boxes #animation-container {  
+width: 1300px; 
+animation: rotate 2s; 
+animation-iteration-count: 2; 
+-webkit-animation: rotate 2s; /* Safari & Chrome */
+-webkit-animation-iteration-count: 2;
+}
+ 
+@keyframes rotate { 
+100% { transform: rotate(360deg); } 
+}
+ 
+@-webkit-keyrframes rotate { /*Safari & Chrome */
+100% { -webkit-transform: rotate(360deg); } 
+} 
+ 
+ 
+#boxes #animation-container .inner-circle { 
+background-image: url('./images/star.png'); 
+background-repeat: no-repeat; 
+height: 500px; 
+width: 500px; 
+} 
+
 #boxes .box{
 	float: left;
 	text-align: center;
