@@ -129,8 +129,8 @@ header a:hover{
   display: block;
   height: auto;
   float: left;
-  width: 100%;
-  border: 0;
+  width: 80%;
+  border: .5;
   }
 
 /* Newsletter */
