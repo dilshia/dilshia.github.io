@@ -126,7 +126,7 @@ header a:hover{
   }
 
 #showcase .rslides img {
-  display: block;
+  display: block -200px -50px;
   height: auto;
   float: left;
   width: 80%;
