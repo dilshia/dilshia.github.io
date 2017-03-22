@@ -251,6 +251,11 @@ footer{
 
 }
 
+/* Gif */
+#gif .container img{
+	position: center;
+}
+
 /* Media Queries */
 @media(max-width: 768px){
 	header #branding,
@@ -259,6 +264,7 @@ footer{
 	#newsletter h1,
 	#newsletter form,
 	#boxes .box,
+	#square .box,
 	article#main-col,
 	aside#sidebar{
 		float: none;
@@ -285,7 +291,3 @@ footer{
 	}
 }
 
-/* Gif */
-#gif .container img{
-	position: center;
-}
