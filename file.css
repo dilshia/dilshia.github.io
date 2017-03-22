@@ -147,6 +147,9 @@ header a:hover{
 	padding: 10px;
 }
 
+#square .box img{
+	width: 220px;
+}
 /* Boxes */
 #boxes{
 	margin-top: 20px;
