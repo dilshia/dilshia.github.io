@@ -50,6 +50,7 @@ header {
 	border-bottom: #ffffff 3px solid;
 	top: 0;
 	position: fixed;
+	z-index: 99;
 }
 
 
