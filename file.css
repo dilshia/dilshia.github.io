@@ -167,6 +167,7 @@ header a:hover{
 }
 
 #boxes .box .textOverImage{
+	position: relative;
 	width: 220px;
 	height: 150px;
 	float: left;
@@ -182,9 +183,24 @@ header a:hover{
 }
 
 #boxes .box .textOverImage:after{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	word-wrap: break-word;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.6);
+	color: #ffffff;
+	padding: 8px;
+	opacity: 0;
 	content: attr(data-text);
+	transition: 0.5s;
 }
 
+#boxes .box .textOverImage:hover:after{
+	opacity: 1;
+}
 
 /* Sidebar */
 aside#sidebar{
