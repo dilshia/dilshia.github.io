@@ -5,7 +5,6 @@ body {
 	padding: 0;
 	margin: 0;
 	background-color: #D8D8D8;
-	padding-top: 70px;
 }
  
  h3 {
@@ -49,7 +48,6 @@ header {
 	padding-top: 30px;
 	min-height: 70px;
 	border-bottom: #ffffff 3px solid;
-	position: fixed;
 }
 
 header a{
