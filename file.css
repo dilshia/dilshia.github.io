@@ -50,6 +50,10 @@ header {
 	border-bottom: #ffffff 3px solid;
 }
 
+header .container{
+	position: fixed;
+}
+
 header a{
 	text-decoration: none;
 	color: #ffffff;
