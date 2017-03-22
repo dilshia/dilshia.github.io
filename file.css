@@ -285,3 +285,7 @@ footer{
 	}
 }
 
+/* Gif */
+#gif .container img{
+	position: center;
+}
