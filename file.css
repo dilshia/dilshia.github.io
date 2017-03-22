@@ -146,10 +146,19 @@ header a:hover{
 	padding: 10px;
 }
 
-#boxes .box img{
+#boxes .box .textOverImage{
 	width: 220px;
+	height: 150px;
+	float: left;
+	margin: 4px;
+	background-size: 100%;
+	transition: 0.5s;
+
 }
 
+#boxes .box .textOverImage:hover{
+	background-size: 110%;
+}
 /* Sidebar */
 aside#sidebar{
 	float: right;
