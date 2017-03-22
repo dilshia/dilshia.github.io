@@ -158,6 +158,14 @@ article#main-col{
 	font-size: 20px;
 }
 
+/* Slides */
+#slides .container{
+	width: 800px;
+	height: 600px;
+	margin: 0px auto;
+	margin-top: 1.5%: 
+}
+
 /* Review */
 #col  .review input, #col .review textarea{
 	width: 90%;
